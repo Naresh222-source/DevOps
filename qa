@@ -19,7 +19,7 @@ git  commit -m  "label" file
 
 git status
 
-git log
+git logs
 
 
 touch file1
