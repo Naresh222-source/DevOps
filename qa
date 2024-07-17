@@ -7,7 +7,7 @@ git init
 git config --global user.name "Naresh"
 git config --global user.email "naresh.aze@gmail.com"
 
-git config --list
+git config --list  hkjhkhkh
 
 git config --global --unset user.emai
 
