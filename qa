@@ -1,2 +1,76 @@
 hello
 hi
+
+
+git init
+
+git config --global user.name "Naresh"
+git config --global user.email "naresh.aze@gmail.com"
+
+git config --list
+
+git config --global --unset user.emai
+
+git add file1 
+
+touch file1
+
+git  commit -m  "label" file
+
+git status
+
+git log
+
+
+touch file1
+git status
+git add file1
+git status
+git  commit -m  "label" file1
+git status
+git log
+git showc id
+
+touch file3 file4 file5
+ls
+git status
+git add file3 file4 file5
+git add *
+or 
+git add.
+or
+git add -A
+git commit -m 
+
+git reset HEAD file5 (staging to workspace)
+git reset --soft CID (local staging)
+
+git reset --mixed cid (local to workspace)
+
+
+git commit -m "label" filename (only modified files to workspace)
+git commit --hard CID
+
+
+git clone https://github.com/Naresh222-source/DevOps.git
+git push
+
+git pull
+git push
+git pull --rebase (rejection data)
+
+git log
+
+git log -2
+git log -3
+git log --oneline
+git log --oneline -2
+git log --author=Naresh
+git log --author=Naresh --oneline
+git log --since=yy-mm-dd
+git log --until=yy-mm-dd
+git log --since=yy-mm-dd --until=yy-mm-dd
+git log --after=yy-mm-dd 
+git log --before=yy-mm-dd
+or
+git log --after=yy-mm-dd --befre=yy-mm-dd
